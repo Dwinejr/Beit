@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*GENERAL*/
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+body{
+	font: 12px Verdana, Geneva, sans-serif;
+	color: #454545;	
+	background: #FFB255;
+}
+/**/
+
+
+/*MAIN CONTENT*/
+#content{
+	background: #FFF;
+	margin: 10px auto 0px;
+	width: 700px;
+	padding: 20px 0px 50px;
+	-moz-box-shadow: 0 0 3px #666666;
+	-webkit-box-shadow: 0 0 3px #666666;
+	box-shadow: 0 0 3px #666666;
+}
+
+#header{
+	height: 140px;
+}
+
+.mainContent{
+	clear: both;	
+	display: block;
+	margin: 50px 0px 0px;
+	line-height: 30px
+}
+
+.moreInfo{
+	float: left;
+	width: 510px;
+}
+
+div.pdf{
+	background: url(img/pdf.png) no-repeat;
+	padding: 0px 0px 0px 70px;
+	width: 300px;
+	margin: 10px auto;
+	display: block
+}
+
+
+.about{
+	margin: 0px 0px 50px;
+}
+
+#map_canvas, noscript{	
+	clear: both;
+}
+
+/**/
+
+
+/*FONTS*/
+h1{text-align:center}
+
+.mainContent p{
+	font-size: 18px;
+	text-align: center;
+}
+
+.mainContent ul p{text-align: left; font-size: 16px;}
+
+p strong{
+	color: #F58634;
+}
+
+.mainContent p strong{
+	font-size: 22px;
+}
+
+.moreInfo p{
+	font-size: 14px;
+	text-align: justify;
+}
+
+p.mapInfo{
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+}
+
+/**/
+
+
+/*CONTACT INFO*/
+.contact{		
+	margin: 60px 0px 0px;
+}
+
+.contact p{	
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.contact p strong{
+	font-size: 18px;
+}
+
+.contact .address{
+	font-size: 12px;
+	margin: 5px 0px 0px;
+}
+/**/
+
+
+/*LISTS*/
+.mainContent ul{line-height: 20px}
+
+.mainContent ul li{
+	list-style-type: none;
+	margin: 14px 10px;
+}
+
+.mainContent ul li p{
+	font-size: 14px;
+}
+
+.mainContent ul li a, .contact a{
+	color: #2957A4;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;	
+}
+/**/

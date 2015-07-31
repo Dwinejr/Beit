@@ -1,0 +1,42 @@
+#content {
+	position: absolute;
+	padding: 20px;
+	width: 240px;
+	height: 260px;
+	top: 50%;
+	left: 50%;
+	margin: -140px 0 0 -130px;
+	background: url( '../../img/bg-teste-online.jpg' ) repeat;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#content .campos {
+	width: 238px;
+	height: 25px;
+	border: 1px solid #999;
+	font-size: 14px;
+	color: #444;
+}
+
+label {
+	color: #FFF;
+	font-family: arial;
+	display: block;
+	margin-top: 10px;
+}
+
+.enviar {
+	margin-top: 20px;
+	width: 70px;
+	height: 25px;
+	color: #FFF;
+	background-color: #0C4DA2;
+	border: 2px solid #FFF;
+	float: right;
+}
+
+#header {
+	background-color: #FFF;
+	text-align: center;
+}

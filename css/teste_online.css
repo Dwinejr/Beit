@@ -1,0 +1,61 @@
+* {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: url( '../img/bg-teste-online.jpg' ) repeat;
+}
+
+#content {
+	position: absolute;
+	width: 660px;
+	left: 50%;
+	margin-left: -330px;
+	background-color: #FFF;
+}
+
+#header {
+	float: left;
+	width: 100%;
+}
+
+#header img {
+	float: left;
+	margin: 10px 20px;
+}
+
+#header h1 {
+	float: right;
+	margin: 25px 50px 0 50px;
+	padding: 0;
+	font-size: 30px;
+	color: #666;
+}
+
+#header h2 {
+	float: right;
+	margin: 10px 50px;
+	padding: 0;
+	font-size: 20px;
+	color: #666;
+}
+
+#questions {
+	margin: 10px;
+	font-size: 12px;
+}
+
+.question p {
+	font-weight: bold;
+}
+
+#result {
+	height: 300px;
+	margin: 100px 30px;
+	text-align: center;
+}
+
+#result a {
+	color: #0C4DA2;
+	text-decoration: underline;
+}
