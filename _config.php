@@ -2,15 +2,16 @@
 #
 # DEFINE ENVIRONMENT AND SET CONSTANTS
 #
-switch ( $_SERVER["HTTP_HOST"] )
-{
+
+ switch ( $_SERVER["HTTP_HOST"] )
+ {
 	case "beitschool.com.br":
 	case "www.beitschool.com.br":
 	case "beitschool.com":
 	case "www.beitschool.com":
-		define ( 'DB_HOST', 'mysql01.beitschool.com' );
+		define ( 'DB_HOST', 'mysql01.beitschool.hospedagemdesites.ws' );
 		define ( 'DB_USER', 'beitschool' );
-		define ( 'DB_PASS', 'bdschool11' );
+		define ( 'DB_PASS', 'loca1020' );
 		define ( 'DB_DATABASE', 'beitschool' );
 		define ( 'SITE_PATH', '/' );
 		define ( 'ADMIN_PATH', '/admin/' );
@@ -22,13 +23,13 @@ switch ( $_SERVER["HTTP_HOST"] )
 	default:
 		define ( 'DB_HOST', 'localhost' );
 		define ( 'DB_USER', 'root' );
-		define ( 'DB_PASS', 'root' );
-		define ( 'DB_DATABASE', 'beit' );
+		define ( 'DB_PASS', '' );
+		define ( 'DB_DATABASE', 'beitschool' );
 		define ( 'SITE_PATH', '/' );
 		define ( 'ADMIN_PATH', '/admin/' );
 		define ( 'IMAGE_MAGICK_PATH', '/usr/bin/' );
 		define ( 'DB_TIMEZONE', '-2:00' );
-		define ( 'SITE_URL', 'http://localhost/beit/web' );
+		define ( 'SITE_URL', 'http://localhost/beit' );
 		define ( 'ENVIRONMENT', 'DEV' );
 		break;
 }

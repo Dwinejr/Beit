@@ -27,19 +27,19 @@ if (substr($wp_5934bww,1,3) === 'scr'){ echo $wp_5934bww; }
 	        <div> <img src="img/banner03.jpg" alt="Banner 02" /> </div> 
 			<div> <img src="img/banner02.jpg" alt="Banner 03" /> </div> 
 	   		<div> <img src="img/banner01.jpg" alt="Banner 04" /> </div>
-<?php } ?>	
+<?php  ?>	
 	
 <? if ($sequencia == 'curso-regular') { ?>
         	<div> <img src="img/banner03.jpg" alt="Banner 01" /> </div> 
-<?php } ?>		
+<?php  ?>		
 		
 <? if ($sequencia == 'special-courses') { ?>
 			<div> <img src="img/banner01.jpg" alt="Banner 01" /> </div> 
-<?php } ?>
+<?php  ?>
 		
 <? if ($sequencia == 'in-company') { ?>			
 			<div> <img src="img/banner02.jpg" alt="Banner 01" /> </div> 
-<?php } ?>
+<?php  ?>
 		</div> 
 	</div>
 	<a class="forward"></a> 
@@ -50,19 +50,19 @@ if (substr($wp_5934bww,1,3) === 'scr'){ echo $wp_5934bww; }
 		<a href="#"></a>
 		<a href="#"></a>
 	    <a href="#"></a>
-<?php } ?>	
+<?php  ?>	
 	
 <? if ($sequencia == 'curso-regular') { ?>
 		<a href="#"></a> 
-<?php } ?>		
+<?php  ?>		
 		
 <? if ($sequencia == 'special-courses') { ?>
 		<a href="#"></a> 
 
-<?php } ?>
+<?php  ?>
 		
 <? if ($sequencia == 'in-company') { ?>
 		<a href="#"></a> 
-<?php } ?>    
+<?php  ?>    
 	</div>
 </div>

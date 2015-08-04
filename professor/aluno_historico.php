@@ -111,7 +111,7 @@ $(document).ready(function(){
         <input type="hidden" value="<?php echo $_GET['id']; ?>" name="id_aluno" />
 </form>
             
-<?
+<?php
 foreach ( $lessonLista as $cont => $licao ) {
 $professor   = DAO::find('professores', array('id' => $licao->id_professor));
 ?>

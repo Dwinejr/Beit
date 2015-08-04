@@ -1,11 +1,12 @@
 <?php
+
 class db
 {
 	# ------------------------------------------------------------------ #
 	public final function __construct()
 	{
-		$conn = mysql_connect( DB_HOST, DB_USER, DB_PASS ) or die( 'Não foi possível conectar.' );
-		mysql_select_db( DB_DATABASE, $conn );
+		$conn = mysql_connect( "mysql01.beitschool.hospedagemdesites.ws", "beitschool", "loca1020" ) or die( 'Não foi possível conectar ao banco de dados.' );
+		mysql_select_db( "beitschool", $conn );
 		mysql_query( "SET time_zone = '" . DB_TIMEZONE . "'" );
 	}
 	

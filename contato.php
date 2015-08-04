@@ -1,4 +1,9 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+
+ini_set('display_errors', 'On');
+error_reporting(E_ALL | E_STRICT);
+
+ ?>
 <body>
 <?php include("topo-e-banner.php"); ?>
 <div id="content" class="contato">
